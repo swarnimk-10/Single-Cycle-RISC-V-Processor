@@ -1,23 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 05.06.2025 15:34:58
-// Design Name: 
-// Module Name: control_unit
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.02 - Added LUI support and changed ImmSrc to 3 bits
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
 module control_unit (
     input  wire [6:0] op,         // instruction[6:0]
